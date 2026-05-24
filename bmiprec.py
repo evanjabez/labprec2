@@ -13,4 +13,8 @@ def calculate_bmi(height, weight):
     else:
         print(f"BMI = {bmi} (Overweight)")
 
-calculate_bmi(1.73, 57)
+def main():
+    calculate_bmi(1.73, 57)
+
+if __name__ == "__main__":
+    main()
